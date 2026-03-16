@@ -1,190 +1,338 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pham Tat Thanh - Portfolio</title>
 
-<title>Pham Tat Thanh | Software Engineer</title>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Oswald:400,300,700' rel='stylesheet'>
 
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
 
 <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap-theme.min.css">
+
 <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="vendors/animsition/css/animsition.min.css">
+<script src="vendors/animsition/js/jquery.animsition.min.js"></script>
+
+<link rel="stylesheet" href="vendors/asPieProgress/progress.css">
+<script src="vendors/asPieProgress/jquery-asPieProgress.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<!-- HERO -->
-<section class="hero text-center">
+<section class="content no-padding">
+
 <div class="container">
 
-<img src="images/pages/anh.jpg" alt="avatar">
+<!-- LANGUAGE BUTTON -->
+<div class="row">
+<div class="col-md-12 text-right">
 
-<h1>Phạm Tất Thành</h1>
+<button onclick="translateLanguage('en')" class="btn btn-default">English</button>
+<button onclick="translateLanguage('vi')" class="btn btn-default">Tiếng Việt</button>
 
-<h3>Software Engineer</h3>
+</div>
+</div>
+
+
+<!-- INTRO -->
+<div class="row">
+
+<div class="col-md-12">
+
+<h1 class="title-lgx">
+<span class="text-brand">Phạm Tất Thành</span>
+</h1>
+
+<h3 class="title-light">
+<span class="text-brand">Web Developer / Software Engineer</span>
+</h3>
 
 <p>
-Web Developer specializing in WordPress, Shopify and WooCommerce
+Phone: 0389112542 <br>
+Email: phamtatthanh245@gmail.com <br>
+Location: Ho Chi Minh City, Vietnam
 </p>
 
-<div class="socials">
-<a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
-<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-<a href="https://github.com"><i class="fa fa-github"></i></a>
-<a href="mailto:phamtatthanh245@gmail.com"><i class="fa fa-envelope"></i></a>
+<ul class="socials">
+
+<li>
+<a href="https://www.facebook.com/tatthanh.pham.0710/" target="_blank">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+
+<li>
+<a href="https://www.linkedin.com/in/th%C3%A0nh-ph%E1%BA%A1m-941441200/" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+</li>
+
+<li>
+<a href="https://github.com/PTThanh01" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+</li>
+
+<li>
+<a href="mailto:phamtatthanh245@gmail.com">
+<i class="fa fa-envelope"></i>
+</a>
+</li>
+
+</ul>
+
 </div>
 
-<br>
-
-<a href="#" class="btn btn-primary">Download Resume</a>
-
 </div>
-</section>
 
 
 <!-- ABOUT -->
-<section class="section">
-<div class="container">
 
-<h2 class="section-title">About Me</h2>
+<div class="row">
 
-<p>
-I am a passionate software engineer with experience in developing modern websites
-and e-commerce platforms. I specialize in WordPress development, Shopify customization,
-and responsive front-end development.
-</p>
+<div class="col-md-12">
+
+<h2 class="title-lg">ABOUT</h2>
 
 <p>
-I enjoy solving problems, learning new technologies and building efficient digital
-solutions for businesses.
+
+I am a Web Developer with experience in building and customizing websites using 
+HTML, CSS, JavaScript and PHP.
+
+I specialize in WordPress development, WooCommerce e-commerce systems, and Shopify stores.
+I have experience working with international clients and building responsive websites 
+for businesses.
+
 </p>
 
 </div>
-</section>
 
+</div>
 
 
 <!-- SKILLS -->
-<section class="section" style="background:white">
 
-<div class="container">
+<div class="row">
 
-<h2 class="section-title">Skills</h2>
+<div class="col-md-12">
 
-<div class="skills">
+<h2 class="title-lg">SKILLS</h2>
 
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
-<span>Bootstrap</span>
-<span>WordPress</span>
-<span>WooCommerce</span>
-<span>Shopify</span>
-<span>PHP</span>
-<span>Git</span>
+<p>
+
+HTML • CSS • JavaScript • PHP • WordPress • Elementor • WooCommerce • Shopify • ReactJS • ExpressJS • Laravel
+
+</p>
 
 </div>
 
 </div>
-</section>
 
 
 
 <!-- PROJECTS -->
-<section class="section">
-
-<div class="container">
-
-<h2 class="section-title">Projects</h2>
 
 <div class="row">
 
-<div class="col-md-4">
-<div class="project">
+<div class="col-md-12">
 
+<h2 class="title-lg">PROJECTS</h2>
+
+</div>
+
+</div>
+
+
+
+<!-- CORPORATE WEBSITES -->
+
+<div class="row">
+
+<div class="col-md-12">
+<h3>Corporate Websites / Landing Pages</h3>
+</div>
+
+
+<div class="col-md-4">
+<h4>Shalom Medcare</h4>
+<p>Healthcare company website</p>
+<a href="https://shmedcare.com" target="_blank">Visit Website</a>
+</div>
+
+<div class="col-md-4">
+<h4>Sino Elite</h4>
+<p>Corporate consulting website</p>
+<a href="https://sinoelite.com.sg" target="_blank">Visit Website</a>
+</div>
+
+<div class="col-md-4">
+<h4>KB Logistics</h4>
+<p>Logistics company website</p>
+<a href="https://kblogistics.sg" target="_blank">Visit Website</a>
+</div>
+
+
+<div class="col-md-4">
 <h4>Mandarin Plus</h4>
-
-<p>
-Developed and customized a WordPress website for a language center,
-including course management and responsive layout.
-</p>
-
-</div>
+<p>Chinese language school website</p>
+<a href="https://mandarinplus.com.sg" target="_blank">Visit Website</a>
 </div>
 
 
 <div class="col-md-4">
-<div class="project">
-
-<h4>KBL Logistics</h4>
-
-<p>
-Corporate logistics website built with modern design
-and SEO optimization.
-</p>
-
-</div>
-</div>
-
-
-<div class="col-md-4">
-<div class="project">
-
 <h4>Learning Explorer</h4>
+<p>Education platform website</p>
+<a href="https://www.learningexplorer.org" target="_blank">Visit Website</a>
+</div>
+
+
+<div class="col-md-4">
+<h4>LFA Global</h4>
+<p>Business services website</p>
+<a href="https://lfaglobal.com" target="_blank">Visit Website</a>
+</div>
+
+</div>
+
+
+
+<!-- ECOMMERCE -->
+
+<div class="row">
+
+<div class="col-md-12">
+<h3>WooCommerce Stores</h3>
+</div>
+
+<div class="col-md-4">
+<h4>Celebox</h4>
+<a href="https://celebox.com.sg" target="_blank">Visit Website</a>
+</div>
+
+<div class="col-md-4">
+<h4>Everich</h4>
+<a href="https://everich.com.sg" target="_blank">Visit Website</a>
+</div>
+
+<div class="col-md-4">
+<h4>Napolizz</h4>
+<a href="https://napolizz.com.sg" target="_blank">Visit Website</a>
+</div>
+
+</div>
+
+
+
+<!-- SHOPIFY -->
+
+<div class="row">
+
+<div class="col-md-12">
+<h3>Shopify Stores</h3>
+</div>
+
+<div class="col-md-4">
+<h4>Packaging eStore</h4>
+<a href="https://packagingestore.com.sg" target="_blank">Visit Website</a>
+</div>
+
+<div class="col-md-4">
+<h4>Fei Fah</h4>
+<a href="https://feifah.com" target="_blank">Visit Website</a>
+</div>
+
+<div class="col-md-4">
+<h4>MBOUQUET</h4>
+<a href="https://mbouquet.sg" target="_blank">Visit Website</a>
+</div>
+
+</div>
+
+
+
+<!-- EXPERIENCE -->
+
+<div class="row">
+
+<div class="col-md-12">
+
+<h2 class="title-lg">EXPERIENCE</h2>
 
 <p>
-Educational platform website with course information
-and responsive design.
+
+Web Developer – Hachi Web Solutions (2024 – Present)
+
 </p>
 
-</div>
-</div>
+<ul>
+
+<li>Developed and customized websites using HTML, CSS, JavaScript and PHP</li>
+<li>Built landing pages and corporate websites</li>
+<li>Customized WordPress themes and plugins</li>
+<li>Built WooCommerce e-commerce stores</li>
+<li>Developed Shopify online stores</li>
+<li>Maintained websites and handled client requests</li>
+
+</ul>
 
 </div>
 
 </div>
+
+
+
+</div>
+
 </section>
 
 
 
-<!-- CONTACT -->
-<section class="section" style="background:white">
-
-<div class="container">
-
-<h2 class="section-title">Contact</h2>
-
-<p>
-<strong>Phone:</strong> 0389112542
-</p>
-
-<p>
-<strong>Email:</strong> phamtatthanh245@gmail.com
-</p>
-
-<p>
-<strong>Address:</strong> Ho Chi Minh City, Vietnam
-</p>
-
-</div>
-
-</section>
+<script src="vendors/jquery.waypoints.min.js"></script>
+<script src="vendors/isotope.pkgd.min.js"></script>
+<script src="js/scripts.js"></script>
 
 
 
-<!-- FOOTER -->
-<div class="footer text-center">
+<!-- GOOGLE TRANSLATE -->
 
-<p>
-© 2026 Pham Tat Thanh
-</p>
+<div id="google_translate_element" style="display:none"></div>
 
-</div>
+<script>
+
+function translateLanguage(lang){
+
+var select = document.querySelector("select.goog-te-combo");
+
+if(select){
+select.value = lang;
+select.dispatchEvent(new Event("change"));
+}
+
+}
+
+function googleTranslateElementInit(){
+
+new google.translate.TranslateElement({
+pageLanguage: 'en',
+includedLanguages: 'en,vi'
+}, 'google_translate_element');
+
+}
+
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
 
 </body>
+
 </html>
