@@ -1,53 +1,303 @@
+/* ===== GLOBAL ===== */
+
 body{
-    font-family:Poppins;
-    background:#f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color:#333;
+    background:#ffffff;
+    line-height:1.6;
 }
+
+a{
+    text-decoration:none;
+    transition:0.3s;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+    background:#ffffff;
+    border:none;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar-brand{
+    font-weight:700;
+    font-size:22px;
+}
+
+.navbar-nav > li > a{
+    font-weight:500;
+    color:#333 !important;
+}
+
+.navbar-nav > li > a:hover{
+    color:#007bff !important;
+}
+
+
+
+/* ===== HERO ===== */
 
 .hero{
-    background:#111;
-    color:white;
-    padding:80px 0;
+    padding:140px 0 100px;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:#fff;
 }
 
-.hero img{
-    border-radius:50%;
-    width:180px;
+.hero h1{
+    font-size:48px;
+    font-weight:700;
 }
+
+.hero h1 span{
+    color:#38bdf8;
+}
+
+.hero h2{
+    margin-top:10px;
+    font-size:24px;
+    font-weight:400;
+    opacity:0.9;
+}
+
+.hero p{
+    margin-top:20px;
+    max-width:600px;
+    font-size:18px;
+    opacity:0.85;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.hero-buttons .btn{
+    margin-right:15px;
+}
+
+
+
+/* ===== BUTTONS ===== */
+
+.btn{
+    padding:12px 28px;
+    border-radius:6px;
+    font-weight:500;
+}
+
+.btn-primary{
+    background:#38bdf8;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#0ea5e9;
+}
+
+.btn-outline{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.btn-outline:hover{
+    background:#fff;
+    color:#000;
+}
+
+
+
+/* ===== SECTION ===== */
 
 .section{
-    padding:60px 0;
+    padding:90px 0;
+}
+
+.section-gray{
+    background:#f5f7fa;
 }
 
 .section-title{
+    text-align:center;
+    font-size:32px;
     font-weight:700;
+    margin-bottom:50px;
+}
+
+
+
+/* ===== ABOUT ===== */
+
+.about-text{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+
+
+/* ===== SKILLS ===== */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#ffffff;
+    border:1px solid #eee;
+    padding:15px;
+    text-align:center;
+    border-radius:6px;
+    font-weight:500;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+
+
+/* ===== PROJECTS ===== */
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:#ffffff;
+    padding:30px;
+    border-radius:8px;
+    border:1px solid #eee;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.project-card h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    font-size:15px;
+    color:#666;
+}
+
+.project-card a{
+    display:inline-block;
+    margin-top:15px;
+    font-weight:500;
+    color:#38bdf8;
+}
+
+.project-card a:hover{
+    color:#0ea5e9;
+}
+.project-filter{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.project-filter button{
+    border:none;
+    background:#eee;
+    padding:8px 16px;
+    margin:5px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.project-filter button.active{
+    background:#38bdf8;
+    color:#fff;
+}
+
+.project-card img{
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+
+/* ===== CONTACT ===== */
+
+.contact-info{
+    text-align:center;
     margin-bottom:30px;
 }
 
-.skills span{
-    display:inline-block;
-    background:#222;
-    color:white;
-    padding:6px 12px;
-    margin:5px;
-    border-radius:4px;
+.contact-info p{
+    font-size:18px;
 }
 
-.project{
-    background:white;
-    padding:25px;
-    border-radius:8px;
-    margin-bottom:20px;
-    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+.contact-info i{
+    margin-right:10px;
+    color:#38bdf8;
+}
+
+
+
+/* ===== SOCIAL ===== */
+
+.socials{
+    text-align:center;
 }
 
 .socials a{
-    margin-right:15px;
-    font-size:20px;
-    color:white;
+    font-size:22px;
+    margin:0 10px;
+    color:#333;
 }
 
+.socials a:hover{
+    color:#38bdf8;
+}
+
+
+
+/* ===== FOOTER ===== */
+
 .footer{
-    background:#111;
-    color:white;
-    padding:20px;
+    background:#0f172a;
+    color:#fff;
+    padding:30px 0;
+    text-align:center;
+    margin-top:60px;
+}
+
+
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:36px;
+}
+
+.hero h2{
+    font-size:20px;
+}
+
+.hero-buttons .btn{
+    margin-bottom:10px;
+}
+
 }
